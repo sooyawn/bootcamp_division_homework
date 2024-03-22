@@ -4,7 +4,15 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    number = int(input())
+    s = 0
+    for i in range(1,number+1):
+        s = s+i
+    print(s)
+    n = 1
+    for j in range(1, number+1):
+        n = n*j
+    print(n)
 
     return
 

@@ -4,9 +4,14 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
-
+    number1 = int(input())
+    print('{}'.format(number1%10), end ='')
+    number2 = number1 // 10
+    print('{}'.format(number2%10), end ='')
+    number3 = number2 // 10
+    print('{}'.format(number3%10), end ='')
     return
+   
 
 
 if __name__ == '__main__':

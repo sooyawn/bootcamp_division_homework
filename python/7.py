@@ -4,7 +4,16 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    year = int(input())
+    day = int(input())
+    if day==4 or day==6 or day==9 or day==11:
+        print('30')
+    elif (year%4==0) and (day==2):
+        print('29')
+    elif (year%4!=0) and (day==2):
+        print('28')
+    else:
+        print('31')
 
     return
 
